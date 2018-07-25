@@ -30,7 +30,7 @@ def aud_to_usd(a_dollar)
   return a_dollar*0.74
 end 
 
-return "How much money do you want to convert?"
+puts "How much money do you want to convert?"
 amount = gets.chomp().to_i
  
 puts "Pick from the following menu:"
